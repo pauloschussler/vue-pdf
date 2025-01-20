@@ -6,7 +6,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@tato30/vue-pdf": "*"
+    "@pauloschussler/vue-pdf": "*"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.1",

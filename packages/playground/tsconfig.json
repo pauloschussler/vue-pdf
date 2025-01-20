@@ -11,7 +11,7 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@tato30/vue-pdf": [
+      "@pauloschussler/vue-pdf": [
         "../vue-pdf/src"
       ]
     }

@@ -3,8 +3,8 @@
 ```vue
 <script setup>
 import { ref } from 'vue'
-import { VuePDF, usePDF } from '@tato30/vue-pdf'
-import '@tato30/vue-pdf/style.css'
+import { VuePDF, usePDF } from '@pauloschussler/vue-pdf'
+import '@pauloschussler/vue-pdf/style.css'
 
 const annotation_layer = ref(false)
 const { pdf } = usePDF('example_014.pdf')

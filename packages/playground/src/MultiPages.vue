@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { VuePDF, usePDF } from '@tato30/vue-pdf';
+import { VuePDF, usePDF } from '@pauloschussler/vue-pdf';
 
 import pdf014 from '@samples/14.pdf';
 

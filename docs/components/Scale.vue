@@ -1,5 +1,5 @@
 <script setup>
-import { VuePDF, usePDF } from '@tato30/vue-pdf';
+import { VuePDF, usePDF } from '@pauloschussler/vue-pdf';
 import { ref } from 'vue';
 
 const scale = ref(1)

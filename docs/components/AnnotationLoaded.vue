@@ -1,5 +1,5 @@
 <script setup>
-import { VuePDF, usePDF } from '@tato30/vue-pdf';
+import { VuePDF, usePDF } from '@pauloschussler/vue-pdf';
 import { withBase } from 'vitepress/client';
 
 const { pdf } = usePDF(withBase('/14.pdf'))
