@@ -14,6 +14,10 @@ const highlightOptions = ref({
   completeWords: false,
   ignoreCase: true,
 });
+
+const handleHighlightClick = (click: any) => {
+  console.log("Highlight clicked:", click);
+};
 </script>
 
 <template>
@@ -23,6 +27,7 @@ const highlightOptions = ref({
       text-layer
       :highlight-text="highlightText"
       :highlightOptions="highlightOptions"
+      @highlight-click="handleHighlightClick"
       custom-highlight-class="custom"
     />
   </div>
